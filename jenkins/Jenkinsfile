@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            container 'bce30b3cca4a'
+            image '5435658a63ac'
         }
     }
     stages {
